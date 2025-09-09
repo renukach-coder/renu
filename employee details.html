@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Details</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Employee Details</legend>
+
+            <label>First name:</label>
+            <input type="text" name="firstname" required><br><br>
+
+            <label>Last name:</label>
+            <input type="text" name="lastname" required><br><br>
+
+            <input type="radio" name="gender" value="Male"> Male
+            <input type="radio" name="gender" value="Female"> Female<br><br>
+
+            <label>Employee ID:</label>
+            <input type="text" name="employeeid" required><br><br>
+
+            <label>Designation:</label>
+            <input type="text" name="designation" required><br><br>
+
+            <label>Phone Number:</label>
+            <input type="tel" name="phone" pattern="[0-9]{10}" placeholder="Enter 10-digit number" required><br><br>
+
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+</body>
+</html>
